@@ -1,4 +1,3 @@
-if (is.R()) {
     .myseqalong <- match.fun("seq_along")
     .mymatchfun <- match.fun
 
@@ -1329,5 +1328,4 @@ generate.assertions <- function(dat, max.level.show=12, digits.compare=6) {
         cat("\n")
     }
     invisible(NULL)
-}
 
